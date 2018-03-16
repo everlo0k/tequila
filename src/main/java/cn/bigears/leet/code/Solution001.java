@@ -31,7 +31,7 @@ public class Solution001 {
     public static int[] twoSum2(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>(16);
         for (int i = 0; i < nums.length; i++) {
-            if (map.get(target - nums[i]) != null) {
+            if (map.containsKey(target - nums[i])) {
                 System.out.println("twoSum2 num1:" + (target - nums[i]));
                 System.out.println("twoSum2 num2:" + nums[i]);
                 return new int[] { map.get(target - nums[i]), i };
