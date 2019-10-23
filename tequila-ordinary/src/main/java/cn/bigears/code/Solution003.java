@@ -1,4 +1,4 @@
-package bigears.leet.code;
+package cn.bigears.code;
 
 import java.util.HashMap;
 import java.util.HashSet;

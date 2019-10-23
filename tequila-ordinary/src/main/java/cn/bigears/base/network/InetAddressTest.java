@@ -1,4 +1,4 @@
-package bigears.base.network;
+package cn.bigears.base.network;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

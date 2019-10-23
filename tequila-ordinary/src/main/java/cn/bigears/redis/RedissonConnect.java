@@ -1,4 +1,4 @@
-package bigears.redis;
+package cn.bigears.redis;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;

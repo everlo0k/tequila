@@ -1,4 +1,4 @@
-package bigears.redis;
+package cn.bigears.redis;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import redis.clients.jedis.HostAndPort;

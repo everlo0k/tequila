@@ -1,4 +1,4 @@
-package bigears.redis;
+package cn.bigears.redis;
 
 import io.lettuce.core.RedisClient;
 import io.lettuce.core.RedisURI;
