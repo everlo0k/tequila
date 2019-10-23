@@ -1,0 +1,2 @@
+dubbo=cn.bigears.dubbo.adaptive.BigDubboAdaptiveExt
+cloud=cn.bigears.dubbo.adaptive.BigCloudAdaptiveExt
