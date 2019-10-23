@@ -1,4 +1,4 @@
-package cn.bigears.base.network;
+package bigears.base.network;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;

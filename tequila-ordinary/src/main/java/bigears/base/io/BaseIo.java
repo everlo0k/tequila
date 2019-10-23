@@ -1,4 +1,4 @@
-package cn.bigears.base.io;
+package bigears.base.io;
 
 import java.io.*;
 

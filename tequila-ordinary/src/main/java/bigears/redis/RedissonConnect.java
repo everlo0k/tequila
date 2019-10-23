@@ -1,10 +1,10 @@
-package cn.bigears.redis;
-
-import java.util.Set;
+package bigears.redis;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
+
+import java.util.Set;
 
 /**
  * RedissonConnect

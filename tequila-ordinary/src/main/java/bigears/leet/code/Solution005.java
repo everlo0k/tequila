@@ -1,4 +1,4 @@
-package cn.bigears.leet.code;
+package bigears.leet.code;
 
 /**
  * Solution005

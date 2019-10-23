@@ -1,4 +1,4 @@
-package cn.bigears.base.string;
+package bigears.base.string;
 
 /**
  * StringReverse

@@ -1,4 +1,4 @@
-package cn.bigears.leet.code;
+package bigears.leet.code;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

@@ -1,4 +1,4 @@
-package cn.bigears.base.threadlocal;
+package bigears.base.threadlocal;
 
 import java.util.concurrent.ThreadLocalRandom;
 

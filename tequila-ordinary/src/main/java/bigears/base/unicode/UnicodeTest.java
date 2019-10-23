@@ -1,4 +1,4 @@
-package cn.bigears.base.unicode;
+package bigears.base.unicode;
 
 import java.io.UnsupportedEncodingException;
 
