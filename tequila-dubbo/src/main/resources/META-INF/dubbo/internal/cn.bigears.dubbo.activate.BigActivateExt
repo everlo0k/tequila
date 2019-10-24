@@ -1,0 +1,4 @@
+cn.bigears.dubbo.activate.BigDefaultActivateExt
+group=cn.bigears.dubbo.activate.BigGroupActivateExt
+order1=cn.bigears.dubbo.activate.OrderOneActivateExt
+order2=cn.bigears.dubbo.activate.OrderTwoActivateExt
