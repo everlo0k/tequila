@@ -13,6 +13,7 @@ public class BigAdaptiveExtTest {
     public static void main(String[] args) {
 
         /**
+         * 0. 首先需要在META-INF目录下有SPI的配置,形如:cloud=cn.bigears.dubbo.adaptive.BigCloudAdaptiveExt
          * 1. 如果实现类上面有@Adaptive,使用该类为默认实现,且最多只有一个实现类带有@Adaptive注解
          * 2. 如果实现类上面没有@Adaptive,则必须在接口方法上面要@Adaptive,dubbo会动态创建一个扩展类
          * 2.1 如果SPI注解没有默认值,且URL也没有传值,则调用getAdaptiveExtension报错找不到扩展类
