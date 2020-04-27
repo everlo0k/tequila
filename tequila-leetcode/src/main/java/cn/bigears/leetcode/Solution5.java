@@ -1,11 +1,11 @@
-package cn.bigears.code;
+package cn.bigears.leetcode;
 
 /**
  * Solution005
  *
  * @author shenyang
  */
-public class Solution005 {
+public class Solution5 {
 
     public static String longestPalindrome(String s) {
         String maxPalindrome = "";
@@ -35,7 +35,7 @@ public class Solution005 {
 
     public static void main(String[] args) {
         String palindrome = "adfadfccdddfdsdf";
-        System.out.println(Solution005.longestPalindrome(palindrome));
+        System.out.println(Solution5.longestPalindrome(palindrome));
     }
 
 }

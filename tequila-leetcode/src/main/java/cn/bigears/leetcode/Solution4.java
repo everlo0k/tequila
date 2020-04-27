@@ -1,4 +1,4 @@
-package cn.bigears.code;
+package cn.bigears.leetcode;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
  *
  * @author shenyang
  */
-public class Solution004 {
+public class Solution4 {
 
     public static double findMedianSortedArrays1(int[] nums1, int[] nums2) {
         final int[] bothArrays = IntStream.concat(Arrays.stream(nums1), Arrays.stream(nums2)).sorted().toArray();
@@ -74,8 +74,8 @@ public class Solution004 {
     public static void main(String[] args) {
         int[] nums1 = { 1, 2, 13, 14, 16, 55 };
         int[] nums2 = { 15, 22, 23, 44, 56 };
-        System.out.println(Solution004.findMedianSortedArrays1(nums1, nums2));
-        System.out.println(Solution004.findMedianSortedArrays2(nums1, nums2));
+        System.out.println(Solution4.findMedianSortedArrays1(nums1, nums2));
+        System.out.println(Solution4.findMedianSortedArrays2(nums1, nums2));
     }
 
 }

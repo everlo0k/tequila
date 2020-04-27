@@ -1,4 +1,4 @@
-package cn.bigears.code;
+package cn.bigears.leetcode;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -10,7 +10,7 @@ import java.util.Set;
  *
  * @author shenyang
  */
-public class Solution003 {
+public class Solution3 {
 
     public static int lengthOfLongestSubstring1(String s) {
         int ans = 0;
@@ -73,9 +73,9 @@ public class Solution003 {
     }
 
     public static void main(String[] args) {
-        System.out.println(Solution003.lengthOfLongestSubstring1("v2c1345cvadgdschfss"));
-        System.out.println(Solution003.lengthOfLongestSubstring2("v2c1345cvadgdschfss"));
-        System.out.println(Solution003.lengthOfLongestSubstring3("v2c1345cvadgdschfss"));
+        System.out.println(Solution3.lengthOfLongestSubstring1("v2c1345cvadgdschfss"));
+        System.out.println(Solution3.lengthOfLongestSubstring2("v2c1345cvadgdschfss"));
+        System.out.println(Solution3.lengthOfLongestSubstring3("v2c1345cvadgdschfss"));
     }
 
 }

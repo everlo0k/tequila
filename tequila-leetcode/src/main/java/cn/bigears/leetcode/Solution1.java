@@ -1,4 +1,4 @@
-package cn.bigears.code;
+package cn.bigears.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ import java.util.Map;
  *
  * @author shenyang
  */
-public class Solution001 {
+public class Solution1 {
 
     public static int[] twoSum1(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
@@ -45,8 +45,8 @@ public class Solution001 {
     public static void main(String[] args) {
         int[] t = { 2, 7, 11, 15 };
         int target = 26;
-        Solution001.twoSum1(t, target);
-        Solution001.twoSum2(t, target);
+        Solution1.twoSum1(t, target);
+        Solution1.twoSum2(t, target);
     }
 
 }

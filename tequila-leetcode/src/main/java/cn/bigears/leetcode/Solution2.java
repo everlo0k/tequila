@@ -1,4 +1,4 @@
-package cn.bigears.code;
+package cn.bigears.leetcode;
 
 /**
  * You are given two non-empty linked lists representing two non-negative integers.
@@ -11,7 +11,7 @@ package cn.bigears.code;
  *
  * @author shenyang
  */
-public class Solution002 {
+public class Solution2 {
 
     private class ListNode {
         int val;
