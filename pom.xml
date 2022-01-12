@@ -31,7 +31,7 @@
     </dependencyManagement>
 
     <properties>
-        <dubbo.version>2.7.3</dubbo.version>
+        <dubbo.version>2.7.15</dubbo.version>
         <lombok.version>1.18.10</lombok.version>
     </properties>
 
