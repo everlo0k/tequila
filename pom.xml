@@ -14,6 +14,7 @@
         <module>tequila-netty</module>
         <module>tequila-spring</module>
         <module>tequila-spring-boot</module>
+        <module>tequila-invoice</module>
     </modules>
     <packaging>pom</packaging>
 
