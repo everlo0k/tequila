@@ -1,4 +1,4 @@
-package cn.bigears.spring.boot.filter;
+package cn.bigears.spring.boot.exclude.filter;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -28,7 +28,7 @@ public class MainTypeExcludeFilter {
         ConfigurableApplicationContext applicationContext = new SpringApplicationBuilder(MainTypeExcludeFilter.class).run();
         System.out.println(applicationContext.containsBean("erden"));
         System.out.println(applicationContext.containsBean("ring"));
-        System.out.println(applicationContext.containsBean("cn.bigears.spring.boot.filter.MyTypeExcludeFilter"));
+        System.out.println(applicationContext.containsBean("cn.bigears.spring.boot.exclude.filter.MyTypeExcludeFilter"));
         applicationContext.close();
     }
 

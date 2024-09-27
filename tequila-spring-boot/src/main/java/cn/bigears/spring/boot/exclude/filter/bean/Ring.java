@@ -1,4 +1,4 @@
-package cn.bigears.spring.boot.bean;
+package cn.bigears.spring.boot.exclude.filter.bean;
 
 import org.springframework.stereotype.Component;
 

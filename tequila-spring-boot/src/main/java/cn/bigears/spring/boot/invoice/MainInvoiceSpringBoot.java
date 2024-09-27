@@ -1,4 +1,4 @@
-package cn.bigears.common.invoice;
+package cn.bigears.spring.boot.invoice;
 
 import cn.bigears.invoice.InvoiceService;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package cn.bigears.spring.boot;
+package cn.bigears.spring.boot.property.source;
 
 import cn.bigears.spring.boot.model.User;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package cn.bigears.spring.boot.filter;
+package cn.bigears.spring.boot.exclude.filter;
 
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
