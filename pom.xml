@@ -81,7 +81,7 @@
     </dependencyManagement>
 
     <properties>
-        <dubbo.version>2.7.3</dubbo.version>
+        <dubbo.version>2.7.15</dubbo.version>
         <lombok.version>1.18.10</lombok.version>
         <spring.version>5.3.31</spring.version>
         <spring.boot.version>2.7.18</spring.boot.version>
