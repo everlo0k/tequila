@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    # Spring Cloud Gateway 配置项，对应 GatewayProperties 类
+    gateway:
+      # 路由配置项，支持多个匹配，对应 RouteDefinition 数组
+      routes:
+        # 路由的编号
+        - id: baidu
+          # 路由到的目标地址
+          uri: https://www.baidu.com
+          # 谓语，作为路由的匹配条件
+          predicates:
+            - Path=/baidu
+          # 过滤器，对请求进行拦截，移除前缀路径
+          filters:
+            - StripPrefix=1
+        - id: product
+          uri: http://127.0.0.1:8091
+          predicates:
+            - Path=/product/**
+          filters:
+            - StripPrefix=1
