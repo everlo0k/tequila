@@ -16,6 +16,7 @@
         <module>tequila-spring-boot</module>
         <module>tequila-invoice</module>
         <module>tequila-spring-cloud-gateway</module>
+        <module>tequila-spring-boot-web</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -85,6 +86,14 @@
                 <scope>import</scope>
             </dependency>
 
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -94,6 +103,7 @@
         <spring.version>5.3.31</spring.version>
         <spring.boot.version>2.7.18</spring.boot.version>
         <spring-cloud.version>2021.0.9</spring-cloud.version>
+        <spring-cloud-alibaba.version>2021.0.6.2</spring-cloud-alibaba.version>
     </properties>
 
     <build>
